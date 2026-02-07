@@ -1,0 +1,22 @@
+{
+  "name": "cc-gutenberg-blocks",
+  "version": "1.0.0",
+  "description": "CC Gutenberg Blocks",
+  "scripts": {
+    "build": "wp-scripts build",
+    "start": "wp-scripts start",
+    "check-licenses": "wp-scripts check-licenses",
+    "format": "wp-scripts format",
+    "lint:css": "wp-scripts lint-style",
+    "lint:js": "wp-scripts lint-js",
+    "packages-update": "wp-scripts packages-update"
+  },
+  "devDependencies": {
+    "@wordpress/scripts": "^31.4.0"
+  },
+  "keywords": [
+    "wordpress",
+    "gutenberg",
+    "blocks"
+  ]
+}

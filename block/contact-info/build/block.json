@@ -1,0 +1,53 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "cc/contact-info",
+  "title": "Contact Info",
+  "category": "cc-blocks",
+  "icon": "location",
+  "description": "Contact information section with map",
+  "keywords": ["contact", "map", "info"],
+  "version": "1.0.0",
+  "textdomain": "CC",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./index.css",
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Need a direct line?"
+    },
+    "description": {
+      "type": "string",
+      "default": "Come visit us at our location or reach out through the contact details below."
+    },
+    "phoneTitle": {
+      "type": "string",
+      "default": "Phone"
+    },
+    "phoneValue": {
+      "type": "string",
+      "default": "(123) 456 7890"
+    },
+    "emailTitle": {
+      "type": "string",
+      "default": "Email"
+    },
+    "emailValue": {
+      "type": "string",
+      "default": "contact@thimpress.com"
+    },
+    "mapLocation": {
+      "type": "string",
+      "default": "London Eye, London, United Kingdom"
+    },
+    "mapZoom": {
+      "type": "number",
+      "default": 15
+    },
+    "mapHeight": {
+      "type": "number",
+      "default": 460
+    }
+  }
+}

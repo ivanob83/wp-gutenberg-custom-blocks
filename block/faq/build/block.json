@@ -1,0 +1,50 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "cc/faq",
+  "title": "FAQ",
+  "category": "cc-blocks",
+  "icon": "editor-help",
+  "description": "FAQ section with Contact Form 7 and accordion questions",
+  "keywords": ["faq", "questions", "accordion"],
+  "version": "1.0.0",
+  "textdomain": "CC",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./index.css",
+  "attributes": {
+    "formTitle": {
+      "type": "string",
+      "default": "Ask a Question"
+    },
+    "formShortcode": {
+      "type": "string",
+      "default": "[contact-form-7 title=\"Faq One\"]"
+    },
+    "title": {
+      "type": "string",
+      "default": "General Questions"
+    },
+    "items": {
+      "type": "array",
+      "default": [
+        {
+          "title": "How buy online product?",
+          "description": "An ecommerce website is your digital storefront on the internet.It facilitates the transaction between a buyer and seller. It is the virtual space where you showcase products, and online customers make selections."
+        },
+        {
+          "title": "How do you successfully e-commerce?",
+          "description": "An ecommerce website is your digital storefront on the internet.It facilitates the transaction between a buyer and seller. It is the virtual space where you showcase products, and online customers make selections."
+        },
+        {
+          "title": "How do you Order Online?",
+          "description": "An ecommerce website is your digital storefront on the internet.It facilitates the transaction between a buyer and seller. It is the virtual space where you showcase products, and online customers make selections."
+        },
+        {
+          "title": "What is e-commerce?",
+          "description": "An ecommerce website is your digital storefront on the internet.It facilitates the transaction between a buyer and seller. It is the virtual space where you showcase products, and online customers make selections."
+        }
+      ]
+    }
+  }
+}

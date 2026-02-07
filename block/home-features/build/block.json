@@ -1,0 +1,38 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "cc/home-features",
+  "title": "Home Features",
+  "category": "cc-blocks",
+  "icon": "shield-alt",
+  "description": "Features section for home page",
+  "keywords": ["features", "icons", "home"],
+  "version": "1.0.0",
+  "textdomain": "CC",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./index.css",
+  "attributes": {
+    "items": {
+      "type": "array",
+      "default": [
+        {
+          "text": "Reduces Eye Strain",
+          "icon": "/wp-content/uploads/2025/12/eye-strain.svg"
+        },
+        {
+          "text": "Improves Contrast",
+          "icon": "/wp-content/uploads/2025/12/glare.svg"
+        },
+        {
+          "text": "Reduces Glare",
+          "icon": "/wp-content/uploads/2025/12/visual-stress.svg"
+        },
+        {
+          "text": "Reduces Visual Strain",
+          "icon": "/wp-content/uploads/2025/12/contrast.svg"
+        }
+      ]
+    }
+  }
+}

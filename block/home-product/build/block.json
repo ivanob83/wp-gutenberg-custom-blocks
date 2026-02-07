@@ -1,0 +1,41 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "cc/home-product-featured",
+  "title": "Home Product Featured",
+  "category": "cc-blocks",
+  "icon": "shield-alt",
+  "description": "Product featured section for home page",
+  "keywords": ["product", "featured", "home"],
+  "version": "1.0.0",
+  "textdomain": "CC",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./index.css",
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Improving Quality of Life for Compromised Visual Processing"
+    },
+    "subtitle": {
+      "type": "string",
+      "default": "Our proprietary lenses have been shown to minimize common signs of compromised visual processing allowing the wearer to experience fewer symptoms to aid in recovery and increase their overall quality of life."
+    },
+    "buttonText": {
+      "type": "string",
+      "default": "Shop Now"
+    },
+    "buttonUrl": {
+      "type": "string",
+      "default": "#"
+    },
+    "tooltipText": {
+      "type": "string",
+      "default": "Click to view location"
+    },
+    "backgroundImage": {
+      "type": "string",
+      "default": "/wp-content/uploads/2025/11/group-18.png"
+    }
+  }
+}
